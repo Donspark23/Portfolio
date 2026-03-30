@@ -1,15 +1,33 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Full-stack portfolio CMS with admin dashboard, authentication, and analytics",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+  "fullstack",
+  "portfolio",
+  "react",
+  "nodejs",
+  "express",
+  "mongodb",
+  "jwt-authentication",
+  "file-upload",
+  "api",
+  "developer-portfolio",
+  "mern-stack",
+  "dashboard",
+  "admin-panel"
+],
+  "author": {
+  "name": "Uchenna Chidera Onyesom",
+  "email": "your@email.com",
+  "url": "https://github.com/Donspark23"
+},
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
     "bcryptjs": "^3.0.3",
     "cors": "^2.8.6",
