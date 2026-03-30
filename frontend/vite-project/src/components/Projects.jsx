@@ -23,7 +23,7 @@ export default function Projects() {
           <p>{p.description}</p>
 
           {p.image && (
-            <img src={`http://localhost:5000/uploads/${p.image}`} width="200" />
+            <img src={`https://portfolio-knr6.onrender.com/uploads/${p.image}`} width="200" />
           )}
 
           <button onClick={() => handleView(p._id, p.liveLink)}>
