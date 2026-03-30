@@ -17,7 +17,7 @@ export default function Admin() {
     formData.append("githubLink", form.githubLink);
     formData.append("image", file);
 
-    await axios.post("http://localhost:5000/api/projects", formData, {
+    await axios.post("https://portfolio-knr6.onrender.com/api/projects", formData, {
       headers: {
         Authorization: token,
       },

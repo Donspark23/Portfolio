@@ -1,3 +1,7 @@
+![React](https://img.shields.io/badge/React-Frontend-blue)
+![Node](https://img.shields.io/badge/Node.js-Backend-green)
+![MongoDB](https://img.shields.io/badge/MongoDB-Database-green)
+
 🚀 Full-Stack Portfolio CMS
 
 production-ready full-stack portfolio application with admin dashboard, authentication, image uploads, and analytics.
