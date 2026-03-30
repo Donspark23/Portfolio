@@ -19,7 +19,7 @@ const app = express();
 app.use(helmet());
 
 app.use(cors({
-  origin: "https://your-frontend.vercel.app" // change after frontend deploy
+  origin: "https://portfolio-one-omega-obp8ye20u6.vercel.app" // change after frontend deploy
 }));
 
 
