@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-const API = "http://localhost:5000/api/projects";
+const API = "https://portfolio-knr6.onrender.com/api/projects";
 
 export default function Projects() {
   const [projects, setProjects] = useState([]);
