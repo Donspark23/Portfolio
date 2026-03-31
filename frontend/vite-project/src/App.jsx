@@ -1,9 +1,19 @@
+import { Routes, Route } from "react-router-dom";
+
+function Home() {
+  return <h2>Home Page</h2>;
+}
+
+function Admin() {
+  return <h2>Admin Dashboard</h2>;
+}
+
 function App() {
   return (
-    <div style={{ color: "black", padding: "20px" }}>
-      <h1>Uchenna Portfolio 🚀</h1>
-      <p>If you see this, React is working.</p>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/admin" element={<Admin />} />
+    </Routes>
   );
 }
 

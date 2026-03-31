@@ -4,6 +4,9 @@ import { useNavigate } from "react-router-dom";
 
 const navigate = useNavigate();
 
+// after login
+navigate("/admin");
+
 export default function Login() {
   const [form, setForm] = useState({});
 
