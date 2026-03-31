@@ -1,16 +1,10 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Admin from "./pages/Admin";
-import Login from "./pages/Login";
-
-export default function App() {
+function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/admin" element={<Admin />} />
-        <Route path="/login" element={<Login />} />
-      </Routes>
-    </BrowserRouter>
+    <div style={{ color: "black", padding: "20px" }}>
+      <h1>Uchenna Portfolio 🚀</h1>
+      <p>If you see this, React is working.</p>
+    </div>
   );
 }
+
+export default App;
