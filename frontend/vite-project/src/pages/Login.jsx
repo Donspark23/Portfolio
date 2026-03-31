@@ -1,5 +1,8 @@
 import { useState } from "react";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
+
+const navigate = useNavigate();
 
 export default function Login() {
   const [form, setForm] = useState({});
